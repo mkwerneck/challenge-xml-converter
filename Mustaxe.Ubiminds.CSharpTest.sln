@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mustaxe.Ubiminds.CSharpTest", "Mustaxe.Ubiminds.CSharpTest\Mustaxe.Ubiminds.CSharpTest.csproj", "{CA1A5238-EBA2-4954-8D47-15D18067888D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mustaxe.Ubiminds.CSharpTest.Tests", "Mustaxe.Ubiminds.CSharpTest.Tests\Mustaxe.Ubiminds.CSharpTest.Tests.csproj", "{2B9DFA79-486C-4332-9E89-F0CF41B5C32D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA1A5238-EBA2-4954-8D47-15D18067888D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA1A5238-EBA2-4954-8D47-15D18067888D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA1A5238-EBA2-4954-8D47-15D18067888D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA1A5238-EBA2-4954-8D47-15D18067888D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9DFA79-486C-4332-9E89-F0CF41B5C32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9DFA79-486C-4332-9E89-F0CF41B5C32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9DFA79-486C-4332-9E89-F0CF41B5C32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9DFA79-486C-4332-9E89-F0CF41B5C32D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D64E499-F66E-4E7B-A457-760DAF586E86}
+	EndGlobalSection
+EndGlobal

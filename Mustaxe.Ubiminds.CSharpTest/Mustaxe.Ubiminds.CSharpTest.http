@@ -1,0 +1,76 @@
+@Mustaxe.Ubiminds.CSharpTest_HostAddress = http://localhost:5031
+
+POST {{Mustaxe.Ubiminds.CSharpTest_HostAddress}}/api/converter/convert-to-xml-user
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Id": "TCnWpDVD",
+  "ReportMetadata": {
+    "Title": "Document for Publication > Best Report Yet!!",
+    "ContactSection": [
+      {
+        "ContactInformation": [
+          {
+            "ContactHeader": "Media Contact",
+            "Contacts": [
+              {
+                "FirstName": "Mike",
+                "LastName": "Johnsen",
+                "Email": "mike.johnsen@kbra.com",
+                "Title": "Director of Communications & Marketing",
+                "PhoneNumber": "+1 646-731-1347",
+                "Accreditation": "CM&AA"
+              },
+              {
+                "FirstName": "Marcos",
+                "LastName": "Fernandes",
+                "Email": "marcos.fernandes@kbra.com",
+                "Title": "Software Developer",
+                "PhoneNumber": "+55 24992150311",
+                "Accreditation": "CM&AA"
+              },
+              {
+                "FirstName": "",
+                "LastName": "",
+                "Email": "",
+                "Title": "",
+                "PhoneNumber": "",
+                "Accreditation": ""
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "CountryIds": [ "US" ],
+  "Title": "Document for Publication > Best Report Yet!!",
+  "PublishDate": "2024-08-26T18:19:59Z",
+  "Status": 3,
+  "TestRun": true
+}
+
+###
+
+POST {{Mustaxe.Ubiminds.CSharpTest_HostAddress}}/api/converter/convert-to-xml-company
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Id": "TCnWpDVD",
+  "ReportMetadata": {
+    "Title": "Document for Publication > Best Report Yet!!",
+    "CompanyName": "My Company Name",
+    "Address": "3264 Aaron Smith Drive",
+    "RegistrationNumber": "565AB998-DD",
+    "FoundedDate": "2008-08-01T00:00:00Z"
+  },
+  "CountryIds": [ "US" ],
+  "Title": "Document for Publication > Best Report Yet!!",
+  "PublishDate": "2024-09-26T18:19:59Z",
+  "Status": 3,
+  "TestRun": true
+}
+
+###
